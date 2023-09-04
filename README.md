@@ -1,4 +1,4 @@
-# IT Infrastructure Services 2022 Course
+# IT Infrastructure Services 2023 Course
 
 Course rules: [link](rules.md).
 
@@ -99,11 +99,7 @@ Week 16: Exam
 
 ## Exam times
 
-TODO Discord
-
-TODO Discord
-
-TODO Discord
+TODO
 
 You can choose any 2 times to take the exam in addition to week 16 exam attempt, 3 attempts in total.
 
