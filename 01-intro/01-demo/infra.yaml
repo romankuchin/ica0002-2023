@@ -1,5 +1,5 @@
 ---
-  - name: Ansible connection test
+  - name: Initial setup
     hosts: all
     roles:
       - init
