@@ -1,0 +1,5 @@
+---
+  - name: Ansible connection test
+    hosts: all
+    roles:
+      - init
