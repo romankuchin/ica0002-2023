@@ -37,12 +37,12 @@ use email or GitHub issues. We won't handle these in class.
  - Lecture: Introduction to the course; IaaC; Ansible
  - Lab: Setup
 
-[Week 2: SSH, Web servers](./02-web-server)
- - Lecture: SSH basics; Web server basics; Nginx
- - Lab: Set up Nginx as simple web server
+[Week 2: Toolchain](./02-toolchain)
+ - Lecture: SSH basics; Ansible basics
+ - Lab: Getting familiar with Ansible
 
-[Week 3: Web applications](./03-web-app)
- - Lecture: Dynamic web resources; web app deployment; Ansible handlers
+[Week 3: Web server](./03-web-server)
+ - Lecture: Web servers; dynamic web resources; web app deployment; Ansible handlers
  - Lab: Deploy a simple web application
 
 [Week 4: Troubleshooting](./04-troubleshooting)
