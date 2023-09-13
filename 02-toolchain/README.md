@@ -66,7 +66,7 @@ Self check:
  - SSH to your managed host
  - Ensure that the file `/home/juri/.ssh/authorized_keys` exists and contains the keys from
    https://github.com/hudolejev.keys
- - Ensure that the file `/home/roman/.ssh/.authorized_keys` exists and contains the keys from
+ - Ensure that the file `/home/roman/.ssh/authorized_keys` exists and contains the keys from
    https://github.com/romankuchin.keys
 
 Self check here can be done manually, you don't have to use Ansible for that. File content can be
@@ -99,9 +99,9 @@ repository servers. In our setup it is enough to update the APT cache one time p
 
 Add the task that updates the APT cache to your `init` role:
 
-    - name: Update APT cache
-      ansible.builtin.apt:
-        cache_valid_time: 86400
+    name: Update APT cache
+    ansible.builtin.apt:
+      cache_valid_time: 86400
 
 `cache_valid_time: 86400` means that Ansible should not attempt to refresh the cache within 86400
 seconds, which is 24 hours.
