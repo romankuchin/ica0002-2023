@@ -13,9 +13,9 @@ The following info is for **both Monday and Wednesday groups**.
 Class times:
 
  - Monday 16:00 -- room 217 -- lecture -- video is recorded
- - Monday 17:45 -- room 317 -- lab -- video is recorded
+ - Monday 17:45 -- room 319 -- lab -- video is recorded
  - Wednesday 16:00 -- room 314 -- lab
- - Wednesday 17:45 -- room 317 -- lab
+ - Wednesday 17:45 -- room 319 -- lab
 
 This week lecture video is recorded on Mondays at 16:00. You can watch it live,
 or later any time that is convenient for you.
