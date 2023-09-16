@@ -99,9 +99,9 @@ repository servers. In our setup it is enough to update the APT cache one time p
 
 Add the task that updates the APT cache to your `init` role:
 
-    name: Update APT cache
-    ansible.builtin.apt:
-      cache_valid_time: 86400
+    - name: Update APT cache
+      ansible.builtin.apt:
+       cache_valid_time: 86400
 
 `cache_valid_time: 86400` means that Ansible should not attempt to refresh the cache within 86400
 seconds, which is 24 hours.
