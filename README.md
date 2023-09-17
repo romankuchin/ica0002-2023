@@ -38,12 +38,12 @@ use email or GitHub issues. We won't handle these in class.
  - Lab: Setup
 
 [Week 2: Toolchain](./02-toolchain)
- - Lecture: SSH basics; Ansible basics
- - Lab: Getting familiar with Ansible
+ - Lecture: SSH basics -- sorry for the awful sound ): Last year lecture is uploaded, hope that helps...
+ - Lab: Ansible basics
 
 [Week 3: Web server](./03-web-server)
- - Lecture: Web servers; dynamic web resources; web app deployment; Ansible handlers
- - Lab: Deploy a simple web application
+ - Lecture: Web servers; dynamic web resources; web app deployment
+ - Lab: Deploy a simple web application; Ansible handlers
 
 [Week 4: Troubleshooting](./04-troubleshooting)
  - Lecture: Troubleshooting; Ansible variables; Ansible Vault
