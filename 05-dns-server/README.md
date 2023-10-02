@@ -62,10 +62,10 @@ Check what variables were collected with Ansible "debug" module. [Docs](https://
 
 Example of playbook:
 
-	- name: Collect info about all VMs
+	- name: Init
 	  hosts: all  # Play runs on all hosts
 	  roles:
-        - setup
+        - init
 
 	- name: DNS servers
 	  hosts: dns_server  # Play runs only on DNS server
