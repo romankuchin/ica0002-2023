@@ -89,7 +89,9 @@ To avoid manual operations every time do the following during Grafana installati
 
  - Configure Prometheus as default datasource (https://grafana.com/docs/grafana/latest/administration/provisioning/#data-sources)
  - Precreate `Main` dashboard (https://grafana.com/docs/grafana/latest/administration/provisioning/#dashboards)
- - Precreate user/password
+ - Precreate user (your GH username) and password
+
+**No cleartext passwords in repo**
 
 ## Expected result
 
