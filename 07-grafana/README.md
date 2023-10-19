@@ -56,6 +56,8 @@ Docs: https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/
 
 Use steps for Grafana OSS.
 
+Ansible modules to use: apt_key, apt_repository, apt.
+
 ## Task 6: Configure reverse proxy
 
 Add necessary locations to Nginx config:
