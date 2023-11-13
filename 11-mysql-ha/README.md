@@ -42,8 +42,7 @@ the 'Expression' field:
 You should see `mysql_slave_*` metrics in the dropdown. If you do, it means that MySQL exporter now
 picks up and exports these metrics.
 
-Note that there are no values for these metrics yet, they'll start appearing after you set up one of
-the MySQL servers as replica (task 5).
+**Note that there are no metrics yet at this point, they'll start appearing after you set up one of the MySQL servers as replica (task 5).**
 
 
 ## Task 2
