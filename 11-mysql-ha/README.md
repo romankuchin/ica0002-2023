@@ -20,7 +20,7 @@ monitoring, and then update the services and watch them appear in Grafana.
 
 Set up the insfrastructure you've built before:
 
-    ansible-paybook infra.yaml
+    ansible-playbook infra.yaml
 
 Update Prometheus MySQL exporter to export MySQL replication metrics (be default it doesn't export
 them).
