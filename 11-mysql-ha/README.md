@@ -165,6 +165,8 @@ only mode for replica server, and remove it from source server; example:
 
 Feel free to update the Ansible task to suite your needs.
 
+**NB!** If you get the following error: ```unable to find /root/.my.cnf``` - you are needed to deal with ```login_unix_socket```. 
+
 Once done, run Ansible to apply the changes. In Grafana you should see that one of the MySQL servers
 has now switched to read only mode.
 
