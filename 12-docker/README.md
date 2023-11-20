@@ -22,7 +22,7 @@ Add another role named `docker` that will install Docker on your managed host.
 
 Note: double check the package name you are installing! Package named `docker` in Ubuntu package
 repository has nothing to do with containers. You will need a package named `docker.io` (yes, with
-dot). You can find the package by running these commands on a managed host:
+dot). You can find the details about the package by running these commands on a managed host:
 
     apt show docker
     apt show docker.io
