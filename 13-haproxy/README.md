@@ -65,7 +65,7 @@ If everything done correctly you should NOT see these logs on keepalived start:
 
 If you see these log lines on keepalived restart - please take your time and fix the issue.
 
-Add authentication to keepalived messsages to avoid any interaction with other students keeaplived.
+Add authentication to keepalived messsages to avoid any interaction with other students keepalived.
 
 That's one of the 2 roles, where IPs are allowed in configuration. Another role is `bind`.
 
