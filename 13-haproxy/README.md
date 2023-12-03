@@ -6,6 +6,8 @@ In this lab we will install Keepalived and HAProxy in front of our Docker contai
 
 Start at least 2 containers with Agama app on each VM. Reuse role from lab12. Your code should support creation as many containers as desired by configuration.
 
+**NB!** If you are facing problems when building an image of the Agama application on the virtual machine where the Bind9 service is installed, you have to allow authorization of requests from the Docker network. Configure DNS access rules by adding the Docker network IP address, the `docker network inspect bridge` command will certainly help you with that issue. 
+
 ## Task 2. Install Keepalived
 
 Keepalived will assign to pair of your VMs additional virtual IP. That IP will be assigned to one VM at a time, that VM will be MASTER. Second VM will become BACKUP and, in case MASTER is dead, will promote itself to MASTER and assign that additional virtual IP to its own interface.
