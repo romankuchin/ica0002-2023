@@ -6,7 +6,7 @@ We'll learn how to launch a container from Docker Hub image, and also how to bui
 locally.
 
 Some hints common for all tasks:
- 1. should you need to debug someting inside the container you can run most standard Linux commands
+ 1. should you need to debug something inside the container you can run most standard Linux commands
    there as `docker exec <container-name> <command>`, for example
    `docker exec grafana cat /etc/resolv.conf`
  2. container name can be found in the `docker ps` output (last column)
@@ -29,7 +29,7 @@ dot). You can find the details about the package by running these commands on a 
 
 You will also need to install another package to allow Ansible to manage Docker resources. The
 package name is `python3-docker`, it is a Python library that allows Ansible modules to execute
-Docker commands and manage your Docker resources.
+Docker commands and manages your Docker resources.
 
 Ensure that the Docker daemon is running and is enabled to start on system boot.
 
@@ -138,7 +138,7 @@ Example:
       - ...
       - ...
 
-Update the dashboard provisionging configuration file (`provisioning/dashboards/default.yaml`) and
+Update the dashboard provisioning configuration file (`provisioning/dashboards/default.yaml`) and
 change the provider path to `/etc/grafana/provisioning/dashboards`. Check Grafana provisioning
 reference for details:
 https://grafana.com/docs/grafana/latest/administration/provisioning/#dashboards
@@ -236,7 +236,7 @@ Install the new Agama that runs in Docker container. For that, create the new `m
 
 Create a directory `/opt/agama`. This time it shouldn't be owned by user `agama` as in lab 3;
 in fact, we don't need a user `agama` at all on this host. Don't set the directory ownership in
-Asnible -- it will be owned by root by default.
+Ansible -- it will be owned by root by default.
 
 Agama does not have an image in the Docker Hub, so it needs to be built on the managed host.
 
@@ -284,9 +284,9 @@ this parameter to the `docker_container` module:
     env:
       AGAMA_DATABASE_URI: mysql+pymysql://<...>
 
-You can reuse the conection string from the `uwsgi` role.
+You can reuse the connection string from the `uwsgi` role.
 
-**Note: this task now contains sentitive data (MySQL password) that should not be logged!**
+**Note: this task now contains sensitive data (MySQL password) that should not be logged!**
 
 Bind the container port to port 8001 of the Docker host.
 
