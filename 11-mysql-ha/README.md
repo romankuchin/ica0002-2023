@@ -18,7 +18,7 @@ monitoring, and then update the services and watch them appear in Grafana.
 
 ## Task 1
 
-Set up the insfrastructure you've built before:
+Set up the infrastructure you've built before:
 
     ansible-playbook infra.yaml
 
@@ -73,7 +73,7 @@ labs 7 and 8).
 More info about MySQL replication threads (IO and SQL) can be found here:
 https://dev.mysql.com/doc/refman/8.0/en/replication-threads.html.
 
-Keep the Grafana dahsboard open for the remaining part of the lab, and make sure to set the
+Keep the Grafana dashboard open for the remaining part of the lab, and make sure to set the
 auto-refresh to observe the changes in close-to-real time.
 
 
@@ -125,9 +125,9 @@ You can use other methods if you want -- main goal is to get unique node id for 
 
 Run the playbook again. It should install and configure the MySQL server on both machines.
 
-Your Grafana dahsboard for MySQL should show that
+Your Grafana dashboard for MySQL should show that
  - both MySQL servers are up
- - ids of both MySQL server are different
+ - ids of both MySQL servers are different
 
 If the new server is not added to Grafana automatically:
  - Make sure that MySQL is running on that server
