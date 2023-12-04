@@ -86,9 +86,9 @@ use email or GitHub issues. We won't handle these in class.
  - Lecture: Load balancers; HAProxy; Keepalived
  - Lab: HAProxy; Keepalived
 
-[Week 14: DNS slave](./14-bind-slave)
+[Week 14: DNS HA](./14-dns-ha)
  - Lecture: DNS HA setups
- - Lab: Bind9 slave
+ - Lab: Secondary Bind9
 
 [Week 15: Final lab](./exam)
  - Lecture: Final lab task
