@@ -69,7 +69,7 @@ Initial zone file since now should contain only minimum required set: SOA record
 All other records Bind9 will add there by itself. Problem that might happen with this approach: next Ansible run will overwrite the database file and delete all the records created by Bind9. Solution: database file should be uploaded by Ansible only if it's missing. If file already there, Ansible should not touch it. Check docs for template module how to achieve this: https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html
 
 In Bind9 configuration allow zone updates only for those who have `nsupdate.key` set. Generate it same way as `transfer.key` from task 2.
-  
+
 All other records should be added with Ansible nsupdate module. Docs: https://docs.ansible.com/ansible/latest/collections/community/general/nsupdate_module.html
 
 Create A record for backup server in bind role.
@@ -79,11 +79,11 @@ Create A record for backup server in bind role.
 CNAME records:
 - grafana           // Points to vm-name with Grafana
 - influxdb          // Points to vm-name with InfluxDB
-- lb1, lb2          // Points to vm-names with HAProxy
-- mysql1, mysql2    // Points to vm-names with MySQL
-- ns1, ns2          // Points to vm-names with Bind9
+- lb-1, lb-2        // Points to vm-names with HAProxy
+- mysql-1, mysql-2  // Points to vm-names with MySQL
+- ns-1, ns-2        // Points to vm-names with Bind9
 - prometheus        // Points to vm-name with Prometheus
-- web1, web2        // Points to vm-names with Agama containers
+- www-1, www-2      // Points to vm-names with Agama containers
 
 Create them in the end of respective roles. For example, `grafana` cname should be created in last task of grafana role.
 
