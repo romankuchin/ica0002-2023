@@ -32,14 +32,14 @@ this infrastructure one last time.
 Infrastructure
 --------------
 
-You will have 3 virtual machines to use: "-1" for internal services, "-2" and "-3" for the
+You will have 3 virtual machines to use: "-3" for internal services, "-1" and "-2" for the
 main application stack.
 
 Each application stack machine should have these services set up and running:
  - HAProxy
  - Keepalived
  - Agama in the Docker container
- - MySQL (master on "-2" machine, replica on "-3")
+ - MySQL (master on "-1" machine, replica on "-2")
  - Secondary Bind
  - Prometheus exporters
 
@@ -47,6 +47,7 @@ Remaining machine should have these services set up and running:
  - Primary Bind
  - InfluxDB
  - Telegraf
+ - Pinger
  - Prometheus
  - Grafana
  - Nginx as frontend for Grafana and Prometheus
