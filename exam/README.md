@@ -78,7 +78,7 @@ scripts and documentation should reflect and support it.
 Task
 ----
 
-Read exam requirements [here](./meta.md)
+Read exam requirements [here](./meta.md).
 
 Update your Ansible playbook named `infra.yaml` to deploy the infrastructure
 described above.
