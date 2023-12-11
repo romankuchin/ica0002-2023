@@ -32,8 +32,8 @@ this infrastructure one last time.
 Infrastructure
 --------------
 
-You will have 3 virtual machines to use: "-3" for internal services, "-1" and "-2" for the
-main application stack.
+You will have 3 virtual machines to use: use "-1" and "-2" for the
+main application stack, "-3" for internal services.
 
 Each application stack machine should have these services set up and running:
  - HAProxy
