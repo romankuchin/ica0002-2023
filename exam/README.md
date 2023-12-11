@@ -83,11 +83,6 @@ Read exam requirements [here](./meta.md).
 Update your Ansible playbook named `infra.yaml` to deploy the infrastructure
 described above.
 
-Infrastructure should be fully set up and online by running exactly this
-command:
-
-	ansible-playbook infra.yaml
-
 Provide the backup SLA document (`backup_sla.md`)
 and backup restore instructions for every service that is being backed up
 (`backup_restore.md`).
