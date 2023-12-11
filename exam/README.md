@@ -1,9 +1,5 @@
 This is the exam task for IT Instastructure Services 2023 course.
 
-More exam related information (access, setup, rules, testing process) can be
-found [here](./meta.md).
-
-
 Intro
 -----
 
@@ -82,6 +78,8 @@ scripts and documentation should reflect and support it.
 Task
 ----
 
+Read exam requirements [here](./meta.md)
+
 Update your Ansible playbook named `infra.yaml` to deploy the infrastructure
 described above.
 
@@ -107,6 +105,7 @@ Requirements
 4. No IP addresses should be used in configurations, except Bind and Keepalived
    configuration and `/etc/resolv.conf`. Should you address local machine, use
    `localhost` -- not `127.0.0.1`!
+5. Your microphone and screen sharing should work in Discord calls
 
 
 Presenting your solution
