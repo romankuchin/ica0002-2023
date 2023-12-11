@@ -100,7 +100,7 @@ Requirements
 1. After the infrastructure is deployed, running `ansible-playbook infra.yaml`
    command again should not produce any changes on the managed hosts
 2. Every variable should be defined exactly once -- in `hosts`,
-   `group_vars/all.yaml` or some other file if you feel needed. If value can be retrieved from ansible facts, it should be taken from there
+   `group_vars/all.yaml` or some other file if you feel needed. If value can be retrieved from Ansible facts, it should be taken from there
 3. No active plain text passwords should be found anywhere in your repository
    (including history); note that it's okay to have old passwords in the code
    -- but only if you changed them already
