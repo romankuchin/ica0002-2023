@@ -29,7 +29,7 @@ dot). You can find the details about the package by running these commands on a 
 
 You will also need to install another package to allow Ansible to manage Docker resources. The
 package name is `python3-docker`, it is a Python library that allows Ansible modules to execute
-Docker commands and manages your Docker resources.
+Docker commands and manage your Docker resources.
 
 Ensure that the Docker daemon is running and is enabled to start on system boot.
 
