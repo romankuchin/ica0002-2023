@@ -37,7 +37,7 @@ Here is an example of `keepalived.conf` with some comments:
 
 Some comments to config example:
 
-`vrrp_script` will add some weight to node priority if it was executed sucessfully. Put check script to `keepalived_script` user home folder. Script that will success in case port 88 is open and return 1 in case nothing listens on that port:
+`vrrp_script` will add some weight to node priority if it was executed successfully. Put check script to `keepalived_script` user home folder. Script that will succeed in case port 88 is open and return 1 in case nothing listens on that port:
 
     #!/bin/bash
     ss -ntl | grep -q ':88 '
@@ -65,7 +65,7 @@ If everything done correctly you should NOT see these logs on keepalived start:
 
 If you see these log lines on keepalived restart - please take your time and fix the issue.
 
-Add authentication to keepalived messsages to avoid any interaction with other students keepalived.
+Add authentication to keepalived messages to avoid any interaction with other students keepalived.
 
 That's one of the 2 roles, where IPs are allowed in configuration. Another role is `bind`.
 
