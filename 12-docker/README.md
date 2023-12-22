@@ -222,7 +222,7 @@ Rename the existing Agama tasks file:
     roles/agama/tasks/main.yaml --> roles/agama/tasks/apt.yaml
 
 If you have already installed Agama and/or uWSGI to one of your managed servers as described in
-[lab 3](../03-web-app) -- stop and uninstall it; run these commands manually as root:
+[lab 3](../03-web-server) -- stop and uninstall it; run these commands manually as root:
 
     service uwsgi stop
     apt purge python3-flask python3-pymysql uwsgi
